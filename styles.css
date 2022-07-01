@@ -14,9 +14,12 @@ body {
     height: 100vh;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
+    background-color: var(--cream);
 }
+
 main {
     width: 375px;
+    background-color: var(--white);
 }
 
 img {

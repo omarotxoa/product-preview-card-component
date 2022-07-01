@@ -28,6 +28,10 @@ main {
     background-color: var(--white);
 }
 
+img {
+    max-width: 100%;
+}
+
 section {
     padding: 1.5em;
 }
@@ -36,8 +40,10 @@ section > * + *{
     margin-block-start: 1rem;
 }
 
-img {
-    max-width: 100%;
+div {
+    display: flex;
+    align-items: center;
+    margin-block-start: 3em;
 }
 
 /* Typography */
@@ -61,8 +67,13 @@ h2 {
     font-size: .8rem;
 }
 
+p {
+    line-height: 1.5rem;
+}
+
 div p:first-of-type {
     color: var(--dark-cyan);
     font-family: 'Fraunces', serif;
     font-weight: 700;
+    margin-inline-end: 1em;
 }

@@ -26,6 +26,8 @@ body {
 main {
     width: 375px;
     background-color: var(--white);
+    border-radius: 1em;
+    overflow: hidden;
 }
 
 img {
@@ -44,6 +46,23 @@ div {
     display: flex;
     align-items: center;
     margin-block-start: 3em;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--dark-cyan);
+    border: none;
+    padding: 1em;
+    border-radius: .5em;
+    color: white;
+    font-weight: 700;
+    margin-block-start: 2em;
+}
+
+button img {
+    margin-inline-end: 1em;
 }
 
 /* Typography */

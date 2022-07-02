@@ -96,3 +96,25 @@ div p:first-of-type {
     font-weight: 700;
     margin-inline-end: 1em;
 }
+
+@media (min-width: 800px) {
+    main {
+        display: flex;
+        width: 550px;
+        height: 400px;
+    }
+    img {
+        width: 50%;
+    }
+    section {
+        width: 50%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+    button img {
+        height: 15px;
+        width: auto;
+    }
+}

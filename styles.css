@@ -61,6 +61,13 @@ button {
     margin-block-start: 2em;
 }
 
+button:hover,
+button:active {
+    background-color: hsl(158, 36%, 20%);
+    cursor: pointer;
+    transition: all ease 200ms;
+}
+
 button img {
     margin-inline-end: 1em;
 }

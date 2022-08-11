@@ -17,6 +17,7 @@
 body {
     display: grid;
     place-items: center;
+    align-content: center;
     height: 100vh;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
